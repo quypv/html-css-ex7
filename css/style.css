@@ -118,3 +118,26 @@ img:hover {
     text-align: left;
     padding-left: 5px;
 }
+.box-rectangle {
+    position: relative;
+}
+.box-rectangle .mask1 {
+    background-color: rgba(22,160,134,0.80);
+    display: none;
+    height: 48px;
+    left: 50%;
+    margin-left: -90px;
+    margin-top: 95px;
+    position: absolute;
+    width: 180px;   
+}
+.box-rectangle .mask1 img {
+    text-align: center;
+}
+.box-rectangle:hover .mask1 {
+    display: block;
+    cursor: pointer;
+}.section3 {
+    background-color: #ecf0f1;
+    height: 498px;
+}
