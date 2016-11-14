@@ -176,3 +176,44 @@ input{
     text-align: left;
     padding: 20px;
 }
+header img {
+    margin-bottom: 25px;
+    margin-right: 5px;
+    height: 48px;
+    width: 48px;
+    text-align: left;
+}
+header h3 {
+    font-size: 20px;
+    text-align: left;
+    font-weight: 700;
+    margin: 0;
+}
+.text {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+.logo {
+    text-align: left;
+    margin-top: 25px;
+}
+.block {
+    display: inline-block;
+}
+li {
+    list-style: none;
+    display:inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+ul {
+    float: right;
+}
+.menu:hover li {
+    background-color: #1bbc9b;
+    color: #fff;
+}
