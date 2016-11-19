@@ -17,14 +17,8 @@
                     </div>
                     <ul class="menu">
                         <li>HOME</li>
-                    </ul>
-                    <ul class="menu">
                         <li>PORTFOLIO</li>
-                    </ul>
-                    <ul class="menu">
                         <li>ABOUT</li>
-                    </ul>
-                    <ul class="menu">
                         <li>CONTACT</li>
                     </ul>
                 </div>
@@ -62,7 +56,7 @@
                 <button type="submit" class="button">FLAT DESIGN</button>
             </div>
             <div class="row margin">
-                <div class="col-sm-3 box-circle">
+                <div class="col-sm-3 col-xs-6 box-circle">
                     <img class="img1" src="img/img-1.jpg">
                     <div class="mask">
                         <img src="img/kinh-nup.png">
@@ -70,7 +64,7 @@
                         <p>Web Design</p>
                     </div>
                 </div> 
-                <div class="col-sm-3 box-circle">
+                <div class="col-sm-3 col-xs-6 box-circle">
                     <img class="img1" src="img/img-2.jpg">
                     <div class="mask">
                         <img src="img/kinh-nup.png">
@@ -78,7 +72,7 @@
                         <p>Web Design</p>
                     </div>
                 </div>
-                <div class="col-sm-3 box-circle">
+                <div class="col-sm-3 col-xs-6 box-circle">
                     <img class="img1" src="img/img-3.jpg">
                     <div class="mask">
                         <img src="img/kinh-nup.png">
@@ -86,7 +80,7 @@
                         <p>Web Design</p>
                     </div>
                 </div>
-                <div class="col-sm-3 box-circle">
+                <div class="col-sm-3 col-xs-6 box-circle">
                     <img class="img1" src="img/img-4.jpg">
                     <div class="mask">
                         <img src="img/kinh-nup.png">
@@ -96,7 +90,7 @@
                 </div>
             </div>
             <div class="row margin">
-                <div class="col-sm-3 box-circle">
+                <div class="col-sm-3 col-xs-6 box-circle">
                     <img class="img1" src="img/img-5.jpg">
                     <div class="mask">
                         <img src="img/kinh-nup.png">
@@ -104,7 +98,7 @@
                         <p>Web Design</p>
                     </div>
                 </div>
-                <div class="col-sm-3 box-circle">
+                <div class="col-sm-3 col-xs-6 box-circle">
                     <img class="img1" src="img/img-6.jpg">
                     <div class="mask">
                         <img src="img/kinh-nup.png">
@@ -112,7 +106,7 @@
                         <p>Web Design</p>
                     </div>
                 </div>
-                <div class="col-sm-3 box-circle">
+                <div class="col-sm-3 col-xs-6 box-circle">
                     <img class="img1" src="img/img-1.jpg">
                     <div class="mask">
                         <img src="img/kinh-nup.png">
@@ -120,7 +114,7 @@
                         <p>Web Design</p>
                     </div>
                 </div>
-                <div class="col-sm-3 box-circle">
+                <div class="col-sm-3 col-xs-6 box-circle">
                     <img class="img1" src="img/img-2.jpg">
                     <div class="mask">
                         <img src="img/kinh-nup.png">
@@ -139,7 +133,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-3 col-sm-offset-1">
-                    <div class="box-avatar box-rectangle">
+                    <div class="box-rectangle box-avatar">
                         <div class="mask1">
                             <img src="img/icon-avata.png">
                         </div>
@@ -191,35 +185,49 @@
     </section>
     <section class="section3">
         <div class="container">
-            <div>
+            <div class="contact-tit">
                 <h2>Contact Us</h2>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
             </div>
             <div class="row">
-                <div class="col-sm-3 from">
-                    <input type="text" value="Your Name">
+                <div class="col-sm-6">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="col-sm-6 box-form">
+                            <input type="text" placeholder="Your Email">
+                        </div>
+                        <div class="col-sm-12">
+                            <textarea rows="8" cols="50" placeholder="Your message"></textarea>
+                            <button type="submit" class="button pull-right submit">SUBMIT</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-3 from">
-                    <input type="text" value="Your Email">
-                </div>
-                <div class="col-sm-3 from">
+                <div class="col-sm-6 text-left information">
                     <p>INFORMATION</p>
-                    <p><i class="fa fa-map-marker" aria-hidden="true"></i> Bak-One Company
-                       12345 Hollywood Bvld Street
-                       Los Angeles, California</p>
-                    <p><i class="fa fa-phone-square" aria-hidden="true"></i> +444 (Phone) 123456</p>
-                    <p><i class="fa fa-fax" aria-hidden="true"></i> +123 (FAX) 0011223</p>
-                    <p><i class="fa fa-envelope-o" aria-hidden="true"></i> info@bak-onecompany.com</p>
+                    <div class="clearfix contact-line">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p>
+                           Bak-One Company<br>
+                           12345 Hollywood Bvld Street<br>
+                           Los Angeles, California
+                        </p>
+                    </div>
+                    <div class="clearfix contact-line">
+                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                        <p>+444 (Phone) 123456</p>
+                    </div>
+                    <div class="clearfix contact-line">
+                        <i class="fa fa-fax" aria-hidden="true"></i>
+                        <p>+123 (FAX) 0011223</p>
+                    </div>
+                    <div class="clearfix contact-line">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <p>info@bak-onecompany.com</p>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 from">
-                    <textarea rows="8" cols="50">Your message</textarea>
-                </div>
-            </div>
-            <div class="submite">
-                <button type="submit" class="button">SUBMITE</button>
-            </div>
+            </div> 
         </div>
     </section>
     <section class="section4">

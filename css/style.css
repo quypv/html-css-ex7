@@ -19,7 +19,7 @@
     font-size: 13px;
     border: none;
     color: #fff;
-    margin: 10px;
+    margin-top: 10px;
     padding: 10px;
 }
 body {
@@ -50,7 +50,6 @@ button:hover {
 }
 .section2 {
     background-color: #16a086;
-    height: 645px;
 }
 .box-avatar{
     background-color: #fff;
@@ -123,6 +122,7 @@ button:hover {
 }
 .box-rectangle {
     position: relative;
+    margin-bottom: 30px;
 }
 .box-rectangle .mask1 {
     background-color: rgba(22,160,134,0.80);
@@ -143,7 +143,6 @@ button:hover {
     cursor: pointer;
 }.section3 {
     background-color: #ecf0f1;
-    height: 498px;
 }
 .tit{
     font-weight: 300;
@@ -167,8 +166,10 @@ input{
     text-align: left;
     margin-top: 10px;
 }
-.submite{
-    margin-top: 130px;
+.submit {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
 .section4 {
     background-color: #2d3e50;
@@ -201,11 +202,11 @@ header h3 {
 .block {
     display: inline-block;
 }
-li {
+.menu li {
     list-style: none;
     display:inline-block;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 5px;
@@ -213,7 +214,45 @@ li {
 ul {
     float: right;
 }
-.menu:hover li {
+.menu li:hover {
     background-color: #1bbc9b;
     color: #fff;
+}
+::-webkit-input-placeholder { font-style: italic;}
+::-moz-placeholder { font-style: italic; }
+:-ms-input-placeholder { font-style: italic; }
+:-moz-placeholder { font-style: italic; }
+input {
+    padding-left: 10px;
+    width: 100%;
+    height:47px;
+    margin-bottom: 20px;
+}
+textarea {
+    padding-left: 10px;
+    width: 100%;
+    height: 153px;
+}
+.contact-line i {
+    float: left;
+    margin-top: 4px;
+    margin-right: 9px;
+}
+.contact-line p {
+    float: left;
+}
+.contact-tit p {
+    margin-bottom: 50px;
+}
+@media (max-width: 767px) {
+    .box-avatar {
+        margin: 0 auto;
+        margin-bottom: 20px; 
+    }
+    .information {
+        margin-bottom: 30px;
+    }
+    .submit{
+        width: 100%;
+    }
 }
